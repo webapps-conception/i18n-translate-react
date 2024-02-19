@@ -1,5 +1,5 @@
 {
-  "name": "react_usinghooks",
+  "name": "i18n-translate-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "eslint1": "./node_modules/.bin/eslint src/index.js",
+    "eslint2": "./node_modules/.bin/eslint .",
+    "eslint3": "npx eslint ."
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +38,10 @@
       "Firefox ESR",
       "not ie < 11"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
